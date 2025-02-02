@@ -1,0 +1,119 @@
+
+/* --- DEFAULT REFERENCE PAGE STYLE SHEET --- */
+
+/* Style body element */
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0px 20px
+}
+
+/* Style first level header element */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+    color: #C4C4C4
+}
+
+/* Style 2nd level header elements */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D
+}
+
+/* Style paragraph elements */
+p {
+    font-size: 24px;
+    padding: 10px 0px 0px 10px
+}
+
+/* Style image elements */
+img {
+    width: 250px;
+    border: 10px dashed #ffffff;
+    
+    /* Center align by setting to block with automatic margins */
+    display: block;
+    margin: auto;
+}
+
+/* Style div elements */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff
+}
+
+/* Style the introduction class */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2
+}
+
+/* Style the red class */
+.red {
+    border: none; /* Remove border */
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff
+}
+
+/* Style .blue div elements */
+div.blue {
+    border: none; /* Remove border */
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid #ffffff;
+    border-right: 5px solid #ffffff
+}
+
+/* Update .blue div header and paragraph styling */
+div.blue p, div.blue h2 {
+    color: #C4C4C4
+}
+
+/* Style .yellow div elements */
+div.yellow {
+    border: none; /* Remove border */
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff
+}
+
+/* Update .yellow div paragraph styling */
+div.yellow p {
+    color: #707070
+}
+
+/* Style .green div elements */
+div.green {
+    border: none; /* Remove border */
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #ffffff;
+    border-top: 2px solid #ffffff
+}
+
+/* Style the footer element */
+footer {
+    background: linear-gradient(to right, #000000 0%, 
+                                #0000ff 25%, #0066ff 70%, 
+                                #000000 100%);
+    border: 5px solid #ffffff
+}
+
+/* Style paragraph elements in the footer */
+footer>p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px
+}
